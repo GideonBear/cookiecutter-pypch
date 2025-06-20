@@ -33,7 +33,7 @@ def main() -> int:
     for file in args.files:
         content = file.read_text()
 
-        new_content = ...  # TODO
+        new_content = content
 
         if new_content != content:
             file.write_text(new_content)
