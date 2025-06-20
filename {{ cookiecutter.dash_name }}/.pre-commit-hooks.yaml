@@ -1,0 +1,7 @@
+-   id: {{ cookiecutter.dash_name }}
+    name: {{ cookiecutter.name }}
+    description: {{ cookiecutter.description }}
+    entry: {{ cookiecutter.dash_name }}
+    language: python
+    types: {{ cookiecutter.filetypes }}
+

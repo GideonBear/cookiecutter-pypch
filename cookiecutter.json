@@ -1,6 +1,8 @@
 {
     "dash_name": "package-name",
+    "name": "Pretty hook name",
     "description": "Description",
+    "filetypes": "[text]",
     "under_name": "{{ cookiecutter.dash_name.replace('-', '_') }}",
     "github_username": "GideonBear",
     "pypi_username": "{{ cookiecutter.github_username }}",
