@@ -4,4 +4,3 @@
     entry: {{ cookiecutter.dash_name }}
     language: python
     types: {{ cookiecutter.filetypes }}
-
