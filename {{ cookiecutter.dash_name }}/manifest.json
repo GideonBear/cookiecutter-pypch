@@ -1,0 +1,11 @@
+{
+    "features": [
+        {
+            "name": "private",
+            "enabled": {{ "true" if cookiecutter.visibility == "private" else "false" }},
+            "resources": [
+                ".github/workflows/precommit-autoupdate.yml"
+            ]
+        }
+    ]
+}

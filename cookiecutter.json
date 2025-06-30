@@ -2,6 +2,7 @@
     "dash_name": "package-name",
     "name": "Pretty hook name",
     "description": "Description",
+    "visibility": ["public", "private"],
     "filetypes": "[text]",
     "under_name": "{{ cookiecutter.dash_name.replace('-', '_') }}",
     "github_username": "GideonBear",
